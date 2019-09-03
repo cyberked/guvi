@@ -1,4 +1,3 @@
-print('                        <                   ..        list sorting program    ...          >')
 list1 = []
 list2 = []
 
@@ -11,8 +10,6 @@ for i in range(0,leng):
     list2.append(ele2)
 biglist = list1 + list2
 biglist.sort()
-print('sorted list is  ::', biglist)
-
 def middle(a):
     split = (len(a))% 2
     if (split != 0):
