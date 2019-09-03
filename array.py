@@ -1,12 +1,12 @@
 list1 = []
 list2 = []
 
-leng = int(input("Enter the size of array >> "))
+leng = int(input())
 for i in range(0,leng):
-    ele1 = int(input("Enter the element of frist list >> "))
+    ele1 = int(input())
     list1.append(ele1)
 for i in range(0,leng):
-    ele2 = int(input("Enter the element of second list>> "))
+    ele2 = int(input())
     list2.append(ele2)
 biglist = list1 + list2
 biglist.sort()
