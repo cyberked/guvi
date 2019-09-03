@@ -10,7 +10,6 @@ def middle(a):
     else:
         add2 = a[split] + a[split-1]
         return add2
-    
 output = middle(biglist)
 print(output)
 
