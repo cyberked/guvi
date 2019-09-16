@@ -34,9 +34,9 @@ correct_answer = ('android 10','16 bytes','windows 10','iphone 11','.java','.go'
 
 for i in range(len(answer)):
     if(answer[i] == correct_answer[i]):
-        print(correct_answer[i], '= = = correct',end=" ")
+        print(correct_answer[i], '= = = correct')
     else:
-        print(correct_answer[i], '= = = incorrect',end=" ")
+        print(answer[i], '= = = incorrect')
         
 
 
